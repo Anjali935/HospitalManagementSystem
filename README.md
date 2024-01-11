@@ -8,8 +8,6 @@ This is a RESTful API for a Hospital Management System, developed using Spring B
 - **Doctor Module**: Handle doctor details (Create, Read, Update, Delete).
 - **Appointment Module**: Schedule and manage appointments.
 
-## Getting Started
-
 ### Prerequisites
 
 - Java
@@ -17,46 +15,44 @@ This is a RESTful API for a Hospital Management System, developed using Spring B
 - MySQL
 - Postman
 
-### Installation
+## Getting Started
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/hospital-management-system-api.git
-1.Open the project in your Java IDE or editor.
-2.Configure the application.properties for the database.
-3.Run the application.
-4.Testing with Postman
-5.Import the provided Postman collection to test the API endpoints.
+Follow these steps to get your development environment set up:
 
+1. **Open the project** in your Java IDE or editor.
+2. **Configure the `application.properties`** for the database.
+3. **Run the application**.
+4. **Testing with Postman**: Import the provided Postman collection to test the API endpoints.
 
-###API Endpoints
+## API Endpoints
 
-Patient Module
+### Patient Module
 
-GET /patients - List all patients.
-GET /patients/{id} - Get a patient.
-POST /patients - Add a patient.
-PUT /patients/{id} - Update a patient.
-DELETE /patients/{id} - Delete a patient.
+- `GET /patients` - List all patients.
+- `GET /patients/{id}` - Get a patient.
+- `POST /patients` - Add a patient.
+- `PUT /patients/{id}` - Update a patient.
+- `DELETE /patients/{id}` - Delete a patient.
 
-Doctor Module
+### Doctor Module
 
-GET /doctors - List all doctors.
-GET /doctors/{id} - Get a doctor.
-POST /doctors - Add a doctor.
-PUT /doctors/{id} - Update a doctor.
-DELETE /doctors/{id} - Delete a doctor.
+- `GET /doctors` - List all doctors.
+- `GET /doctors/{id}` - Get a doctor.
+- `POST /doctors` - Add a doctor.
+- `PUT /doctors/{id}` - Update a doctor.
+- `DELETE /doctors/{id}` - Delete a doctor.
 
-Appointment Module
+### Appointment Module
 
-GET /appointments - List all appointments.
-GET /appointments/{id} - Get an appointment.
-POST /appointments - Create an appointment.
-PUT /appointments/{id} - Update an appointment.
-DELETE /appointments/{id} - Delete an appointment.
+- `GET /appointments` - List all appointments.
+- `GET /appointments/{id}` - Get an appointment.
+- `POST /appointments` - Create an appointment.
+- `PUT /appointments/{id}` - Update an appointment.
+- `DELETE /appointments/{id}` - Delete an appointment.
 
-###Technologies
-Spring Boot
-MySQL
-Maven
-Postman
+## Technologies
+
+- **Spring Boot**
+- **MySQL**
+- **Maven**
+- **Postman**
